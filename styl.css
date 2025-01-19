@@ -1,0 +1,47 @@
+body{
+    margin:0px;
+    font-family: Comfortaa;
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: repeat(3,1/3);
+
+}
+
+#p3:hover{
+    
+}
+header{
+    grid-column: 1/ span 3;
+    border-bottom: 3px solid black;
+    
+}
+.projekty{
+    display: none;
+}
+#pasek{
+    height: 50px;
+    grid-column: span 3;
+    display: grid;
+    grid-template-columns: repeat(3,33.333%);
+    text-align: center;
+    align-items: center;
+}
+
+#p1{
+    grid-column: span 1;
+}
+#p2{
+    grid-column: span 1;
+    
+}
+#p3{
+    grid-column: span 1;
+    
+}
+#blok{
+    grid-column: span 3;
+    height:800px
+}
+footer{
+    grid-column: span 3;
+}
